@@ -8,14 +8,46 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isActivated: Bool = false
+    
     var body: some View {
-        HStack {
-            MyVstackView()
-            MyVstackView()
-            MyVstackView()
-        }
-        .padding(.all)
-        .background(Color.yellow)
+        
+        NavigationView {
+            
+            VStack {
+                HStack {
+                    MyVstackView()
+                    MyVstackView()
+                    MyVstackView()
+                }
+                .padding(isActivated ? 50.0 : 10.0)
+                .background(isActivated ? Color.yellow : Color.black)
+                
+                //tap gesture 추가
+                .onTapGesture {
+                    print("HStack 이 클릭되었다.")
+                    
+                    // 애니메이션과 함께
+                    withAnimation {
+                        // toggle() true이면 false로, false이면 true로
+                        self.isActivated.toggle()
+            }
+                }// HStack
+                
+                // 네비게이션 버튼
+                NavigationLink(destination: MyTextView() ) {
+                    Text("네비게이션")
+                        .font(.system(size: 40))
+                        .fontWeight(.bold)
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(30)
+                }
+                .padding(.top, 50)
+            }
+        } // NavigationViews
     }
 }
 
@@ -26,3 +58,5 @@ struct ContentView: View {
 //        ContentView()
 //    }
 //}
+
+
