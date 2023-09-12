@@ -13,6 +13,20 @@
 		C26B223F2AAC921C00F6B8C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26B223E2AAC921C00F6B8C3 /* Preview Assets.xcassets */; };
 		C26B22462AAC95B700F6B8C3 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22452AAC95B600F6B8C3 /* MyVstackView.swift */; };
 		C26B22482AAC9A2000F6B8C3 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22472AAC9A2000F6B8C3 /* MyTextView.swift */; };
+		C26B22562AADEA5000F6B8C3 /* SwiftUI_text_tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22552AADEA5000F6B8C3 /* SwiftUI_text_tutorial.swift */; };
+		C26B22582AADFB1000F6B8C3 /* Image_tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22572AADFB1000F6B8C3 /* Image_tutorial.swift */; };
+		C26B225A2AADFB3F00F6B8C3 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22592AADFB3F00F6B8C3 /* CircleImageView.swift */; };
+		C26B225C2AADFF3D00F6B8C3 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B225B2AADFF3D00F6B8C3 /* MyWebView.swift */; };
+		C26B225F2AAE03E500F6B8C3 /* SwiftUI_Stacks_tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B225E2AAE03E500F6B8C3 /* SwiftUI_Stacks_tutorial.swift */; };
+		C26B22612AAE069800F6B8C3 /* MyVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22602AAE069800F6B8C3 /* MyVstack.swift */; };
+		C26B22632AAE074400F6B8C3 /* MyHstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22622AAE074400F6B8C3 /* MyHstack.swift */; };
+		C26B22652AAE086100F6B8C3 /* MyZstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22642AAE086100F6B8C3 /* MyZstack.swift */; };
+		C26B22672AAE15E500F6B8C3 /* SwiftUI_stack_practice_tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22662AAE15E500F6B8C3 /* SwiftUI_stack_practice_tutorial.swift */; };
+		C26B226C2AAE165800F6B8C3 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B226B2AAE165800F6B8C3 /* MyProjectCard.swift */; };
+		C26B226E2AAE19AE00F6B8C3 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B226D2AAE19AE00F6B8C3 /* MyBasicCard.swift */; };
+		C26B22702AAE1F7200F6B8C3 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B226F2AAE1F7200F6B8C3 /* MyCard.swift */; };
+		C26B22722AAE23D000F6B8C3 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22712AAE23D000F6B8C3 /* MyList.swift */; };
+		C26B22742AAE2C6200F6B8C3 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22732AAE2C6200F6B8C3 /* MyNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +37,21 @@
 		C26B223E2AAC921C00F6B8C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C26B22452AAC95B600F6B8C3 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
 		C26B22472AAC9A2000F6B8C3 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		C26B22552AADEA5000F6B8C3 /* SwiftUI_text_tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_text_tutorial.swift; sourceTree = "<group>"; };
+		C26B22572AADFB1000F6B8C3 /* Image_tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_tutorial.swift; sourceTree = "<group>"; };
+		C26B22592AADFB3F00F6B8C3 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		C26B225B2AADFF3D00F6B8C3 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		C26B225D2AADFFED00F6B8C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C26B225E2AAE03E500F6B8C3 /* SwiftUI_Stacks_tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Stacks_tutorial.swift; sourceTree = "<group>"; };
+		C26B22602AAE069800F6B8C3 /* MyVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstack.swift; sourceTree = "<group>"; };
+		C26B22622AAE074400F6B8C3 /* MyHstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHstack.swift; sourceTree = "<group>"; };
+		C26B22642AAE086100F6B8C3 /* MyZstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyZstack.swift; sourceTree = "<group>"; };
+		C26B22662AAE15E500F6B8C3 /* SwiftUI_stack_practice_tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_stack_practice_tutorial.swift; sourceTree = "<group>"; };
+		C26B226B2AAE165800F6B8C3 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		C26B226D2AAE19AE00F6B8C3 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		C26B226F2AAE1F7200F6B8C3 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		C26B22712AAE23D000F6B8C3 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		C26B22732AAE2C6200F6B8C3 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +84,16 @@
 		C26B22362AAC921900F6B8C3 /* SwiftUIFundamentalTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				C26B225D2AADFFED00F6B8C3 /* Info.plist */,
 				C26B22372AAC921900F6B8C3 /* SwiftUIFundamentalTutorialApp.swift */,
 				C26B22392AAC921900F6B8C3 /* ContentView.swift */,
 				C26B223B2AAC921C00F6B8C3 /* Assets.xcassets */,
 				C26B223D2AAC921C00F6B8C3 /* Preview Content */,
 				C26B22452AAC95B600F6B8C3 /* MyVstackView.swift */,
 				C26B22472AAC9A2000F6B8C3 /* MyTextView.swift */,
+				C26B22692AAE161000F6B8C3 /* SwiftUI_text_tutorial */,
+				C26B22682AAE15FD00F6B8C3 /* SwiftUI_Stacks_tutorial */,
+				C26B226A2AAE162400F6B8C3 /* SwiftUI_stack_practice_tutorial */,
 			);
 			path = SwiftUIFundamentalTutorial;
 			sourceTree = "<group>";
@@ -71,6 +104,41 @@
 				C26B223E2AAC921C00F6B8C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C26B22682AAE15FD00F6B8C3 /* SwiftUI_Stacks_tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C26B225E2AAE03E500F6B8C3 /* SwiftUI_Stacks_tutorial.swift */,
+				C26B22602AAE069800F6B8C3 /* MyVstack.swift */,
+				C26B22622AAE074400F6B8C3 /* MyHstack.swift */,
+				C26B22642AAE086100F6B8C3 /* MyZstack.swift */,
+			);
+			path = SwiftUI_Stacks_tutorial;
+			sourceTree = "<group>";
+		};
+		C26B22692AAE161000F6B8C3 /* SwiftUI_text_tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C26B22552AADEA5000F6B8C3 /* SwiftUI_text_tutorial.swift */,
+				C26B22572AADFB1000F6B8C3 /* Image_tutorial.swift */,
+				C26B22592AADFB3F00F6B8C3 /* CircleImageView.swift */,
+				C26B225B2AADFF3D00F6B8C3 /* MyWebView.swift */,
+			);
+			path = SwiftUI_text_tutorial;
+			sourceTree = "<group>";
+		};
+		C26B226A2AAE162400F6B8C3 /* SwiftUI_stack_practice_tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C26B22662AAE15E500F6B8C3 /* SwiftUI_stack_practice_tutorial.swift */,
+				C26B226B2AAE165800F6B8C3 /* MyProjectCard.swift */,
+				C26B226D2AAE19AE00F6B8C3 /* MyBasicCard.swift */,
+				C26B226F2AAE1F7200F6B8C3 /* MyCard.swift */,
+				C26B22712AAE23D000F6B8C3 /* MyList.swift */,
+				C26B22732AAE2C6200F6B8C3 /* MyNavigationView.swift */,
+			);
+			path = SwiftUI_stack_practice_tutorial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +211,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26B22562AADEA5000F6B8C3 /* SwiftUI_text_tutorial.swift in Sources */,
+				C26B226E2AAE19AE00F6B8C3 /* MyBasicCard.swift in Sources */,
+				C26B22722AAE23D000F6B8C3 /* MyList.swift in Sources */,
+				C26B22612AAE069800F6B8C3 /* MyVstack.swift in Sources */,
+				C26B225C2AADFF3D00F6B8C3 /* MyWebView.swift in Sources */,
+				C26B226C2AAE165800F6B8C3 /* MyProjectCard.swift in Sources */,
+				C26B22582AADFB1000F6B8C3 /* Image_tutorial.swift in Sources */,
+				C26B225A2AADFB3F00F6B8C3 /* CircleImageView.swift in Sources */,
+				C26B22702AAE1F7200F6B8C3 /* MyCard.swift in Sources */,
 				C26B223A2AAC921900F6B8C3 /* ContentView.swift in Sources */,
+				C26B225F2AAE03E500F6B8C3 /* SwiftUI_Stacks_tutorial.swift in Sources */,
 				C26B22482AAC9A2000F6B8C3 /* MyTextView.swift in Sources */,
 				C26B22382AAC921900F6B8C3 /* SwiftUIFundamentalTutorialApp.swift in Sources */,
 				C26B22462AAC95B700F6B8C3 /* MyVstackView.swift in Sources */,
+				C26B22742AAE2C6200F6B8C3 /* MyNavigationView.swift in Sources */,
+				C26B22672AAE15E500F6B8C3 /* SwiftUI_stack_practice_tutorial.swift in Sources */,
+				C26B22632AAE074400F6B8C3 /* MyHstack.swift in Sources */,
+				C26B22652AAE086100F6B8C3 /* MyZstack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +360,7 @@
 				DEVELOPMENT_TEAM = 8HG96SSK4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIFundamentalTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +390,7 @@
 				DEVELOPMENT_TEAM = 8HG96SSK4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIFundamentalTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
