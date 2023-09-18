@@ -27,6 +27,12 @@
 		C26B22702AAE1F7200F6B8C3 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B226F2AAE1F7200F6B8C3 /* MyCard.swift */; };
 		C26B22722AAE23D000F6B8C3 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22712AAE23D000F6B8C3 /* MyList.swift */; };
 		C26B22742AAE2C6200F6B8C3 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26B22732AAE2C6200F6B8C3 /* MyNavigationView.swift */; };
+		C2D7A70F2AB7E5DA0070F34B /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7A70E2AB7E5D90070F34B /* MyProfileView.swift */; };
+		C2D7A7112AB7EB680070F34B /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7A7102AB7EB680070F34B /* MyCircleImageView.swift */; };
+		C2D7A7132AB86A3D0070F34B /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7A7122AB86A3D0070F34B /* MyGeometryReader.swift */; };
+		C2D7A7152AB871B60070F34B /* MyGeometryReaderVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7A7142AB871B60070F34B /* MyGeometryReaderVStack.swift */; };
+		C2D7A7172AB888C10070F34B /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7A7162AB888C10070F34B /* MyTabView.swift */; };
+		C2D7A7192AB88B5A0070F34B /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D7A7182AB88B5A0070F34B /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,12 @@
 		C26B226F2AAE1F7200F6B8C3 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		C26B22712AAE23D000F6B8C3 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		C26B22732AAE2C6200F6B8C3 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		C2D7A70E2AB7E5D90070F34B /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		C2D7A7102AB7EB680070F34B /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
+		C2D7A7122AB86A3D0070F34B /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		C2D7A7142AB871B60070F34B /* MyGeometryReaderVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVStack.swift; sourceTree = "<group>"; };
+		C2D7A7162AB888C10070F34B /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		C2D7A7182AB88B5A0070F34B /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 		C26B222B2AAC921800F6B8C3 = {
 			isa = PBXGroup;
 			children = (
+				C2D7A7142AB871B60070F34B /* MyGeometryReaderVStack.swift */,
 				C26B22362AAC921900F6B8C3 /* SwiftUIFundamentalTutorial */,
 				C26B22352AAC921900F6B8C3 /* Products */,
 			);
@@ -137,6 +150,11 @@
 				C26B226F2AAE1F7200F6B8C3 /* MyCard.swift */,
 				C26B22712AAE23D000F6B8C3 /* MyList.swift */,
 				C26B22732AAE2C6200F6B8C3 /* MyNavigationView.swift */,
+				C2D7A70E2AB7E5D90070F34B /* MyProfileView.swift */,
+				C2D7A7102AB7EB680070F34B /* MyCircleImageView.swift */,
+				C2D7A7122AB86A3D0070F34B /* MyGeometryReader.swift */,
+				C2D7A7162AB888C10070F34B /* MyTabView.swift */,
+				C2D7A7182AB88B5A0070F34B /* MyView.swift */,
 			);
 			path = SwiftUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -211,16 +229,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D7A7192AB88B5A0070F34B /* MyView.swift in Sources */,
+				C2D7A7112AB7EB680070F34B /* MyCircleImageView.swift in Sources */,
 				C26B22562AADEA5000F6B8C3 /* SwiftUI_text_tutorial.swift in Sources */,
 				C26B226E2AAE19AE00F6B8C3 /* MyBasicCard.swift in Sources */,
 				C26B22722AAE23D000F6B8C3 /* MyList.swift in Sources */,
+				C2D7A7172AB888C10070F34B /* MyTabView.swift in Sources */,
 				C26B22612AAE069800F6B8C3 /* MyVstack.swift in Sources */,
 				C26B225C2AADFF3D00F6B8C3 /* MyWebView.swift in Sources */,
+				C2D7A7132AB86A3D0070F34B /* MyGeometryReader.swift in Sources */,
 				C26B226C2AAE165800F6B8C3 /* MyProjectCard.swift in Sources */,
 				C26B22582AADFB1000F6B8C3 /* Image_tutorial.swift in Sources */,
 				C26B225A2AADFB3F00F6B8C3 /* CircleImageView.swift in Sources */,
 				C26B22702AAE1F7200F6B8C3 /* MyCard.swift in Sources */,
 				C26B223A2AAC921900F6B8C3 /* ContentView.swift in Sources */,
+				C2D7A7152AB871B60070F34B /* MyGeometryReaderVStack.swift in Sources */,
 				C26B225F2AAE03E500F6B8C3 /* SwiftUI_Stacks_tutorial.swift in Sources */,
 				C26B22482AAC9A2000F6B8C3 /* MyTextView.swift in Sources */,
 				C26B22382AAC921900F6B8C3 /* SwiftUIFundamentalTutorialApp.swift in Sources */,
@@ -228,6 +251,7 @@
 				C26B22742AAE2C6200F6B8C3 /* MyNavigationView.swift in Sources */,
 				C26B22672AAE15E500F6B8C3 /* SwiftUI_stack_practice_tutorial.swift in Sources */,
 				C26B22632AAE074400F6B8C3 /* MyHstack.swift in Sources */,
+				C2D7A70F2AB7E5DA0070F34B /* MyProfileView.swift in Sources */,
 				C26B22652AAE086100F6B8C3 /* MyZstack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

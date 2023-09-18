@@ -15,7 +15,11 @@ struct SwiftUIFundamentalTutorialApp: App {
     var body: some Scene {
         WindowGroup {
             
-            MyGeometryReaderVStack()
+            MyTabView()
+            
+//            MyProfileView(isNavigationBarHidden: self.$isNavigationBarHidden)
+            
+//            MyGeometryReaderVStack()
             
 //            MyGeometryReader()
             
