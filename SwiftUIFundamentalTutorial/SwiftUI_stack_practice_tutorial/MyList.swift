@@ -47,12 +47,12 @@ struct MyList: View {
 
         }
         .listStyle(GroupedListStyle())
-        .navigationTitle("내 목록")
-        .navigationBarTitle("메인")
+//        .navigationTitle("내 목록")
+//        .navigationBarTitle("메인")
 //        .navigationBarHidden(self.isNavigationBarHidden)
-        .onAppear {
-            self.isNavigationBarHidden = false
-        }
+//        .onAppear {
+//            self.isNavigationBarHidden = false
+//        }
 //        .listStyle(PlainListStyle())
         
 //        List {
